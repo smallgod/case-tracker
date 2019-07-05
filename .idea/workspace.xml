@@ -2,14 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="facd8582-2361-440e-9502-d445d4a6ce38" name="Default" comment="URA case Management repo setup - 1st commit">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_daemon_commons_daemon_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ura-casemgt.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_3_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_c3p0_5_3_1_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_1_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_3_1_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jadira_usertype_usertype_core_7_0_0_CR1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jadira_usertype_usertype_spi_7_0_0_CR1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20180130.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/copyright_scope.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/api/implementation/WitnessServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/api/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/PhoneNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/AbstractSpecification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/AndSpecification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/NotSpecification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/OrSpecification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/Specification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/Validate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/Witness.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessIdentity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessSpecification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessStatement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/service/WitnessService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/service/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/Constant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/DateOfCapture.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/EmailAddress.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/EmailAddressSpecification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/Entity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/FirstName.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/FirstNameSpecification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/IdentificationNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/IdentificationType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/KeepAnonymous.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/KeyInformation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/LastName.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/OtherNames.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/Repository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/ValueObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/specification/WitnessSpecification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/specification/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/Logging/log4j/CustomLogger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/Logging/log4j/LoggerUtilities.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/Utilities/DateUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/Auditable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/hibernate/BaseEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/hibernate/HibernateRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/hibernate/Witness.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/hibernate/WitnessRepositoryHibernate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/interfaces/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/configuration/ApplicationEntry.java" afterPath="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/appstart/DaemonStart.java" />
+      <change beforePath="$PROJECT_DIR$/ura-casemgt.iml" afterPath="$PROJECT_DIR$/ura-casemgt.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,30 +98,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Witness.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/Witness.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="0">
+              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding>
-                <element signature="n#repositories#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationEntry.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/configuration/ApplicationEntry.java">
+      <file leaf-file-name="WitnessService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WitnessSpecification.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessSpecification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-126">
+              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaemonStart.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/appstart/DaemonStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WitnessStatement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessStatement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateOfCapture.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/DateOfCapture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WitnessFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="75" lean-forward="false" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WitnessRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,9 +200,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/Logging</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,8 +226,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/Logging/log4j/LoggerUtilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/appstart/ApplicationEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/service/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/api/implementation/WitnessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/Utilities/DateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/Witness/PhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/Witness/WitnessRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/Witness/Witness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/witness/IdentificationType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/IdentificationType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessIdentificationType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/PhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/LastName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/OtherNames.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/FirstName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/ValueObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/specification/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/AndSpecification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/NotSpecification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/OrSpecification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/IdentificationType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/IdentificationNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/EmailAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/Validate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/FirstNameSpecification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/AbstractSpecification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/Specification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/EmailAddressSpecification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/KeyInformation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/KeepAnonymous.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/WitnessSpecification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessSpecification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/model/Witness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/model/Witness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/hibernate/Witness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/WitnessIdentity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/hibernate/WitnessRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/hibernate/HibernateRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessIdentity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/hibernate/WitnessRepositoryHibernate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/Repository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessRepository.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/configuration/ApplicationEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessStatement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/Entity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/Witness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/DateOfCapture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/appstart/DaemonStart.java" />
       </list>
     </option>
   </component>
@@ -81,6 +286,11 @@
         <option name="downloadDocsAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order>
+      <scope name="copyright-scope" />
+    </order>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
@@ -102,9 +312,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,17 +347,65 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="casemgt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ura-casemgt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="casemgt" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ura-casemgt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="casemgt" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="appstart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ura-casemgt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="casemgt" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ura-casemgt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ura.casemgt.domain.model" />
+      <recent name="com.ura.casemgt.infrastructure.configuration.server" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ura.casemgt.domain.shared" />
+      <recent name="com.ura.casemgt.domain.model.witness" />
+      <recent name="com.ura.casemgt.domain.witness" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,7 +443,7 @@
     </configuration>
     <configuration name="ura-casemgt" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.ura.casemgt.configuration.ApplicationEntry" />
+      <option name="MAIN_CLASS_NAME" value="com.ura.casemgt.infrastructure.appstart.DaemonStart" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -291,36 +550,45 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.50858366" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5171674" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.4914163" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28612304" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="20" y="333" width="1400" height="251" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13059701" sideWeight="0.47138768" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12810946" sideWeight="0.49713877" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2074392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2811159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.49427754" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.4828326" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,93 +630,433 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/interfaces/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="n#repositories#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/configuration/ApplicationEntry.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/PhoneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/service/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/Utilities/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/witness/IdentificationType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/IdentificationType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessIdentificationType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/PhoneNumber.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/specification/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/OrSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/NotSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/AndSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="n#repositories#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/configuration/ApplicationEntry.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#repositories#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/ura/casemgt/configuration/ApplicationEntry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/OtherNames.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
-            <element signature="n#repositories#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="e#233#234#0" expanded="false" />
+            <element signature="e#267#268#0" expanded="false" />
+            <element signature="e#299#300#0" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#470#471#0" expanded="false" />
+            <element signature="e#745#746#0" expanded="false" />
+            <element signature="e#797#798#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/configuration/ApplicationEntry.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/LastName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="187">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#257#258#0" expanded="false" />
+            <element signature="e#288#289#0" expanded="false" />
+            <element signature="e#315#316#0" expanded="false" />
+            <element signature="e#376#377#0" expanded="false" />
+            <element signature="e#454#455#0" expanded="false" />
+            <element signature="e#726#727#0" expanded="false" />
+            <element signature="e#777#778#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/IdentificationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#600#601#0" expanded="false" />
+            <element signature="e#639#640#0" expanded="false" />
+            <element signature="e#1129#1130#0" expanded="false" />
+            <element signature="e#1167#1168#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/ValueObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/Validate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7347">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/Validate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/Specification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="97" lean-forward="false" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/IdentificationNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/KeyInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/KeepAnonymous.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/FirstNameSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/core/specification/AbstractSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/api/implementation/WitnessServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/FirstName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#228#229#0" expanded="false" />
+            <element signature="e#260#261#0" expanded="false" />
+            <element signature="e#291#292#0" expanded="false" />
+            <element signature="e#323#324#0" expanded="false" />
+            <element signature="e#385#386#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#737#738#0" expanded="false" />
+            <element signature="e#788#789#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/Logging/log4j/CustomLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/Logging/log4j/LoggerUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/service/WitnessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/specification/WitnessSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessIdentity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#601#602#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#670#671#0" expanded="false" />
+            <element signature="e#701#702#0" expanded="false" />
+            <element signature="e#742#743#0" expanded="false" />
+            <element signature="e#775#776#0" expanded="false" />
+            <element signature="e#832#833#0" expanded="false" />
+            <element signature="e#873#874#0" expanded="false" />
+            <element signature="e#932#933#0" expanded="false" />
+            <element signature="e#973#974#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/EmailAddressSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="96" column="57" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="96" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessIdentity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#601#602#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#670#671#0" expanded="false" />
+            <element signature="e#701#702#0" expanded="false" />
+            <element signature="e#742#743#0" expanded="false" />
+            <element signature="e#775#776#0" expanded="false" />
+            <element signature="e#832#833#0" expanded="false" />
+            <element signature="e#873#874#0" expanded="false" />
+            <element signature="e#932#933#0" expanded="false" />
+            <element signature="e#973#974#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/hibernate/HibernateRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#288#289#0" expanded="false" />
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#378#379#0" expanded="false" />
+            <element signature="e#435#436#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/hibernate/Witness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/database/hibernate/WitnessRepositoryHibernate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/EmailAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="75" lean-forward="false" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/Witness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/shared/DateOfCapture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/domain/model/witness/WitnessSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2625">
+          <caret line="170" column="50" lean-forward="true" selection-start-line="170" selection-start-column="50" selection-end-line="170" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ura/casemgt/infrastructure/appstart/DaemonStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -456,6 +1064,17 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.7</last-edited>
@@ -466,6 +1085,21 @@
               </list>
             </option>
           </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>copyright-scope</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="copyright-scope" />
+          </order>
         </settings>
       </state>
     </states>
