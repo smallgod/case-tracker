@@ -1,7 +1,7 @@
 package com.ura.casemgt.domain.shared;
 
 import com.ura.casemgt.core.specification.AbstractSpecification;
-import com.ura.casemgt.core.specification.Validate;
+import com.ura.casemgt.core.Validate;
 
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;

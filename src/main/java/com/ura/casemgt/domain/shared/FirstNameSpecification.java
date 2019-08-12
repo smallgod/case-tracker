@@ -1,7 +1,7 @@
 package com.ura.casemgt.domain.shared;
 
 import com.ura.casemgt.core.specification.AbstractSpecification;
-import com.ura.casemgt.core.specification.Validate;
+import com.ura.casemgt.core.Validate;
 
 /**
  * Route specification. Describes where a cargo origin and destination is,

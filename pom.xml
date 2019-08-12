@@ -33,6 +33,12 @@
         <!-- Logging artifacts -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-web</artifactId>
+            <version>2.11.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>2.11.2</version>
         </dependency>
@@ -71,6 +77,49 @@
             <type>jar</type>
         </dependency>
         <!-- End -->
+
+        <!-- Jetty Server artifacts -->
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>9.4.11.v20180605</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-webapp</artifactId>
+            <version>9.4.11.v20180605</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-plus</artifactId>
+            <version>9.4.11.v20180605</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlet</artifactId>
+            <version>9.4.11.v20180605</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-jndi</artifactId>
+            <version>9.4.11.v20180605</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-annotations</artifactId>
+            <version>9.4.11.v20180605</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlets</artifactId>
+            <version>9.4.11.v20180605</version>
+        </dependency>
 
         <!-- Database artifacts -->
         <dependency>
@@ -255,6 +304,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>2.2-beta-5</version>
@@ -272,6 +322,8 @@
                     </descriptorRefs>
                 </configuration>
             </plugin>
+
+            <!-- Copy project dependencies -->
             <plugin>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>3.1.1</version>
@@ -293,6 +345,43 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <!-- Generate Pojos from XML/xsd -->
+            <plugin>
+
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <version>0.12.3</version>
+                <executions>
+
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <schemaIncludes>
+                                <include>jaxb/app-properties-bindings/v1_0/*.xsd</include>
+                            </schemaIncludes>
+                            <episodeFile>
+                                ${project.build.directory}/generated-sources/xjc/META-INF/jaxb-app-properties.episode
+                            </episodeFile>
+                            <generatePackage>com.ura.casemgt.infrastructure.properties.generated</generatePackage>
+                        </configuration>
+                        <id>jaxb-generate-app-properties</id>
+                    </execution>
+
+                </executions>
+
+                <configuration>
+                    <catalog>src/main/resources/jaxb/catalog.xml</catalog>
+                    <catalogResolver>org.jvnet.jaxb2.maven2.resolver.tools.ClasspathCatalogResolver</catalogResolver>
+                    <forceRegenerate>true</forceRegenerate>
+                    <generateDirectory>target/generated-sources/jaxb2</generateDirectory>
+                    <verbose>true</verbose>
+                </configuration>
+            </plugin>
+
+
             <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
                 <version>2.5</version>
@@ -339,6 +428,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.12.4</version>
@@ -352,6 +442,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <artifactId>maven-install-plugin</artifactId>
                 <version>2.4</version>
@@ -378,6 +469,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.3</version>
@@ -411,12 +503,6 @@
                 </executions>
                 <configuration>
                     <outputDirectory>/srv/applications/daemons/ura/target/site</outputDirectory>
-                    <reportPlugins>
-                        <reportPlugin>
-                            <groupId>org.apache.maven.plugins</groupId>
-                            <artifactId>maven-project-info-reports-plugin</artifactId>
-                        </reportPlugin>
-                    </reportPlugins>
                 </configuration>
             </plugin>
         </plugins>

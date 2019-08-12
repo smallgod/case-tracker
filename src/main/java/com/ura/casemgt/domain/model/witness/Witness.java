@@ -1,7 +1,6 @@
 package com.ura.casemgt.domain.model.witness;
 
 import com.ura.casemgt.core.PhoneNumber;
-import com.ura.casemgt.core.specification.Specification;
 import com.ura.casemgt.domain.shared.*;
 
 /**
@@ -36,84 +35,5 @@ public abstract class Witness implements Entity<Witness> {
 
     void maskWitnessContacts(PhoneNumber phoneNumber, EmailAddress emailAddress) {}
 
-    @Override
-    public boolean sameIdentityAs(Witness other) {
-        return other != null && this.witnessNumber().sameValueAs(other.witnessNumber());
-    }
 
-
-//    public Witness() {}
-//
-//    public FirstName getFirstName() {
-//        return firstName;
-//    }
-//
-//
-//    public void setFirstName(FirstName firstName) {
-//        this.firstName = firstName;
-//    }
-//
-//    public LastName getLastName() {
-//        return lastName;
-//    }
-//
-//    public void setLastName(LastName lastName) {
-//        this.lastName = lastName;
-//    }
-//
-//    public OtherNames getOtherNames() {
-//        return otherNames;
-//    }
-//
-//    public void setOtherNames(OtherNames otherNames) {
-//        this.otherNames = otherNames;
-//    }
-//
-//    public IdentificationType getIdentificationType() {
-//        return identificationType;
-//    }
-//
-//    public void setIdentificationType(IdentificationType identificationType) {
-//        this.identificationType = identificationType;
-//    }
-//
-//    public IdentificationNumber getIdenticationNumber() {
-//        return identicationNumber;
-//    }
-//
-//    public void setIdenticationNumber(IdentificationNumber identicationNumber) {
-//        this.identicationNumber = identicationNumber;
-//    }
-//
-//    public PhoneNumber getPhoneNumber() {
-//        return phoneNumber;
-//    }
-//
-//    public void setPhoneNumber(PhoneNumber phoneNumber) {
-//        this.phoneNumber = phoneNumber;
-//    }
-//
-//    public EmailAddress getEmailAddress() {
-//        return emailAddress;
-//    }
-//
-//    public void setEmailAddress(EmailAddress emailAddress) {
-//        this.emailAddress = emailAddress;
-//    }
-//
-//    public KeepAnonymous getIsKeepAnonymous() {
-//        return isKeepAnonymous;
-//    }
-//
-//    public void setIsKeepAnonymous(KeepAnonymous isKeepAnonymous) {
-//        this.isKeepAnonymous = isKeepAnonymous;
-//    }
-//
-//    public KeyInformation getKeyInformation() {
-//        return keyInformation;
-//    }
-//
-//    public void setKeyInformation(KeyInformation keyInformation) {
-//        this.keyInformation = keyInformation;
-//    }
 }

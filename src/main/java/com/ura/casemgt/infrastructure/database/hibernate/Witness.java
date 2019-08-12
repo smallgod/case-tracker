@@ -3,6 +3,9 @@ package com.ura.casemgt.infrastructure.database.hibernate;
 import com.ura.casemgt.core.PhoneNumber;
 import com.ura.casemgt.domain.shared.*;
 
+/**
+ * @author smallGod
+ */
 public class Witness
         extends com.ura.casemgt.domain.model.witness.Witness {
 
@@ -19,12 +22,12 @@ public class Witness
     public Witness() {
     }
 
-    @Override
+   // @Override
     public FirstName getFirstName() {
         return firstName;
     }
 
-    @Override
+    //@Override
     public void setFirstName(FirstName firstName) {
         this.firstName = firstName;
     }
@@ -91,5 +94,16 @@ public class Witness
 
     public void setKeyInformation(KeyInformation keyInformation) {
         this.keyInformation = keyInformation;
+    }
+
+    /**
+     * Entities compare by identity, not by attributes.
+     *
+     * @param other The other entity.
+     * @return true if the identities are the same, regardless of other attributes.
+     */
+    @Override
+    public boolean sameIdentityAs(com.ura.casemgt.domain.model.witness.Witness other) {
+        return false;
     }
 }

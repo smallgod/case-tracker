@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" version="1.0"
+           targetNamespace="https://cases.ura.go.ug/metadata/config/v1_0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:ns1="https://cases.ura.go.ug/metadata/config/v1_0">
+
+    <xs:element name="jetty-config">
+
+        <xs:annotation>
+            <xs:documentation>Jetty Server Properties</xs:documentation>
+        </xs:annotation>
+
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="http-port" type="xs:int"/>
+                <xs:element name="https-port" type="xs:int"/>
+                <xs:element name="admin-port" type="xs:int"/>
+                <xs:element name="output-buffersize" type="xs:int"/>
+                <xs:element name="request-headersize" type="xs:int"/>
+                <xs:element name="response-headersize" type="xs:int"/>
+                <xs:element name="context-path" type="xs:string"/>
+                <xs:element name="relative-resourcedir" type="xs:string"/>
+                <xs:element name="webxml-file" type="xs:string"/>
+                <xs:element name="webapp-warfile" type="xs:string"/>
+                <xs:element name="keystore-pass" type="xs:string"/>
+                <xs:element name="keystore-path" type="xs:string"/>
+                <xs:element name="keystore-managerpass" type="xs:string"/>
+                <xs:element name="welcome-files" type="xs:string"/>
+            </xs:all>
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>

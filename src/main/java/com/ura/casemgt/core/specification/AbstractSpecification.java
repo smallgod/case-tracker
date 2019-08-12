@@ -1,6 +1,8 @@
 package com.ura.casemgt.core.specification;
 
 
+import com.ura.casemgt.domain.shared.Specification;
+
 /**
  * Abstract base implementation of composite {@link Specification} with default
  * implementations for {@code and}, {@code or} and {@code not}.
@@ -10,11 +12,13 @@ public abstract class AbstractSpecification<T> implements Specification<T> {
     /**
      * {@inheritDoc}
      */
-    public abstract boolean isSatisfiedBy(T t) throws IllegalArgumentException; //change to the correct exception
+    @Override
+    public abstract boolean isSatisfiedBy(T t);
 
     /**
      * {@inheritDoc}
      */
+    @Override
     public Specification<T> and(final Specification<T> specification) {
         return new AndSpecification<T>(this, specification);
     }
@@ -22,6 +26,7 @@ public abstract class AbstractSpecification<T> implements Specification<T> {
     /**
      * {@inheritDoc}
      */
+    @Override
     public Specification<T> or(final Specification<T> specification) {
         return new OrSpecification<T>(this, specification);
     }
@@ -29,7 +34,24 @@ public abstract class AbstractSpecification<T> implements Specification<T> {
     /**
      * {@inheritDoc}
      */
+    @Override
     public Specification<T> not(final Specification<T> specification) {
         return new NotSpecification<T>(specification);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public Specification<T> orNot(final Specification<T> specification) {
+        return new OrNotSpecification<T>(this, specification);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public Specification<T> andNot(final Specification<T> specification) {
+        return new AndNotSpecification<T>(this, specification);
     }
 }

@@ -1,0 +1,12 @@
+<!--
+  ~ Copyright (c) 2018. SmallGod. This code is provided as is and users are solely responsible for its use and any consequences thereof.
+  -->
+
+<sql-result-set-mapping name="BookValueMappingXml">
+    <constructor-result target-class="com.maiif.datamodel.json.DisplayItem">
+        <column name="id" class="java.lang.Long"/>
+        <column name="displayId"/>
+        <column name="displayValue"/>
+        <column name="displayState" class="com.maiif.constant.DisplayItemState"/>
+    </constructor-result>
+</sql-result-set-mapping>

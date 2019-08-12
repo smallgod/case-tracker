@@ -1,28 +1,33 @@
 package com.ura.casemgt.core.specification;
 
+import com.ura.casemgt.domain.shared.Specification;
+
 /**
- * OR specification, used to create a new specifcation that is the OR of two other specifications.
+ * OR specification, used to create a new specifcation
+ * that is the OR of two other specifications.
  */
 public class OrSpecification<T> extends AbstractSpecification<T> {
 
-    private Specification<T> spec1;
-    private Specification<T> spec2;
+    private Specification<T> leftCondition;
+    private Specification<T> rightCondition;
 
     /**
      * Create a new OR specification based on two other spec.
      *
-     * @param spec1 Specification one.
-     * @param spec2 Specification two.
+     * @param leftCondition  Specification one.
+     * @param rightCondition Specification two.
      */
-    public OrSpecification(final Specification<T> spec1, final Specification<T> spec2) {
-        this.spec1 = spec1;
-        this.spec2 = spec2;
+    public OrSpecification(final Specification<T> leftCondition,
+                           final Specification<T> rightCondition) {
+        this.leftCondition = leftCondition;
+        this.rightCondition = rightCondition;
     }
 
     /**
      * {@inheritDoc}
      */
-    public boolean isSatisfiedBy(final T t) {
-        return spec1.isSatisfiedBy(t) || spec2.isSatisfiedBy(t);
+    public boolean isSatisfiedBy(final T candidate) {
+        return leftCondition.isSatisfiedBy(candidate)
+                || rightCondition.isSatisfiedBy(candidate);
     }
 }

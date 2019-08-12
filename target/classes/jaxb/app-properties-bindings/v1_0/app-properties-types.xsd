@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" version="1.0"
+           xmlns:xsB="https://cases.ura.go.ug/properties/v1_0/types"
+           targetNamespace="https://cases.ura.go.ug/properties/v1_0/types"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="min8String"> 
+        <xs:restriction base="xs:string">
+            <xs:minLength value="8" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="scheduler-type">
+        <xs:all>
+            <xs:element name="triggername" type="xs:string"/>
+            <xs:element name="jobname" type="xs:string"/>
+            <xs:element name="groupname" type="xs:string"/>
+            <xs:element name="interval" type="xs:int"/>
+        </xs:all>
+    </xs:complexType>
+
+    <!--<xs:complexType name="remoteunit-type">-->
+        <!--<xs:all>-->
+            <!--<xs:element name="name" type="xs:string"/>-->
+            <!--<xs:element name="url" type="xs:string"/>-->
+            <!--<xs:element name="username" type="xs:string"/>-->
+            <!--<xs:element name="password" type="xs:string"/>-->
+        <!--</xs:all>-->
+    <!--</xs:complexType>-->
+
+</xs:schema>

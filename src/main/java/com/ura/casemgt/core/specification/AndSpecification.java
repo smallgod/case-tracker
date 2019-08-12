@@ -1,28 +1,35 @@
 package com.ura.casemgt.core.specification;
 
-/**
- * AND specification, used to create a new specifcation that is the AND of two other specifications.
- */
-public class AndSpecification<T> extends AbstractSpecification<T> {
+import com.ura.casemgt.domain.shared.Specification;
 
-    private Specification<T> spec1;
-    private Specification<T> spec2;
+/**
+ * AND specification, used to create a new specifcation
+ * that is the AND of two other specifications.
+ */
+public class AndSpecification<T>
+        extends AbstractSpecification<T> {
+
+    private Specification<T> leftCondition;
+    private Specification<T> rightCondition;
 
     /**
      * Create a new AND specification based on two other spec.
      *
-     * @param spec1 Specification one.
-     * @param spec2 Specification two.
+     * @param leftCondition Specification one.
+     * @param rightCondition Specification two.
      */
-    public AndSpecification(final Specification<T> spec1, final Specification<T> spec2) {
-        this.spec1 = spec1;
-        this.spec2 = spec2;
+    public AndSpecification(final Specification<T> leftCondition,
+                            final Specification<T> rightCondition) {
+        this.leftCondition = leftCondition;
+        this.rightCondition = rightCondition;
     }
 
     /**
      * {@inheritDoc}
      */
-    public boolean isSatisfiedBy(final T t) {
-        return spec1.isSatisfiedBy(t) && spec2.isSatisfiedBy(t);
+    @Override
+    public boolean isSatisfiedBy(final T candidate) {
+        return leftCondition.isSatisfiedBy(candidate)
+                && rightCondition.isSatisfiedBy(candidate);
     }
 }

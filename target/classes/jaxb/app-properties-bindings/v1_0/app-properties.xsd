@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" version="1.0"
+           targetNamespace="https://cases.ura.go.ug/properties/v1_0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           xmlns:ns1="https://cases.ura.go.ug/properties/v1_0/types">
+
+    <!-- only use include if the targetNamespace of the referenced schema is identical to that of the including schema - otherwise use import-->
+    <!--<xs:include schemaLocation="../CommonTypesBinding/CommonTypes.xsd" />  -->
+
+    <xs:import namespace="https://cases.ura.go.ug/properties/v1_0/types"
+               schemaLocation="app-properties-types.xsd" />
+
+    <xs:element name="properties">
+
+        <xs:annotation>
+            <xs:documentation>Application Properties</xs:documentation>
+        </xs:annotation>
+
+        <xs:complexType>
+            <xs:all>
+
+                <!--External HTTP connections parameters -->
+                <xs:element name="connection-parameters">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="conn-timeout" type="xs:int"/>
+                            <xs:element name="read-timeout" type="xs:int"/>
+                            <xs:element name="max-total-conns" type="xs:int"/>
+                            <xs:element name="connections-per-route" type="xs:int"/>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- Configuration files -->
+                <xs:element name="configuration-files">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="log4j" type="xs:string"/>
+                            <xs:element name="hibernate" type="xs:string"/>
+                            <xs:element name="hibernate-customtypes" type="xs:string"/>
+                            <xs:element name="web-server" type="xs:string"/>
+                            <xs:element name="sms-server" type="xs:string"/>
+                            <xs:element name="whitelist" type="xs:string"/>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- job scheduler configs-->
+                <xs:element name="job-schedulers">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="processor-job" type="ns1:scheduler-type"/>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:all>
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>
